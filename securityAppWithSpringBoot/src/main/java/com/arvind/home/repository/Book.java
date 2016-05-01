@@ -18,6 +18,15 @@ public class Book implements Serializable{
 	private String author;
 	private String description;
 	private String isbn;
+	private boolean isSecure;
+
+	public boolean isSecure() {
+		return isSecure;
+	}
+
+	public void setSecure(boolean isSecure) {
+		this.isSecure = isSecure;
+	}
 
 	private static final long serialVersionUID = -3004169121394255683L;
 
